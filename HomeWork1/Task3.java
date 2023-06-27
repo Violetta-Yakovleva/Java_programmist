@@ -6,14 +6,14 @@ import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) {
-        Scanner scanner_nums = new Scanner(System.in);
+        Scanner scannerNums = new Scanner(System.in);
         System.out.print("Введие первое число: ");
-        Double num1 = scanner_nums.nextDouble();
+        Double num1 = scannerNums.nextDouble();
         System.out.print("Введие второе число: ");
-        Double num2 = scanner_nums.nextDouble();
+        Double num2 = scannerNums.nextDouble();
         System.out.print("Введите арифметическое действие для чисел: сложение +, вычитание -, умножение * или деление /: ");
-        Character operation = scanner_nums.next().charAt(0);
-        scanner_nums.close();
+        Character operation = scannerNums.next().charAt(0);
+        scannerNums.close();
 
         double result = 0;
 
