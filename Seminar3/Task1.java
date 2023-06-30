@@ -5,7 +5,6 @@
 package Seminar3;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Iterator;
 import java.util.Random;
 import java.util.Scanner;
@@ -18,8 +17,8 @@ public class Task1 {
         int number = scanerNumber.nextInt();
         System.out.println("Введите maxValue: ");
         int maxValue = scanerNumber.nextInt();
-        //scanerNumber.close();    
         randomSortedList(number, maxValue);
+        scanerNumber.close(); 
 
     }
 
