@@ -2,31 +2,26 @@
 // повторений слова TEST и метод, который запишет эту строку в
 // простой текстовый файл, обработайте исключения.
 
-package Seminar2;
+// package Seminar2;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
+// import java.io.BufferedWriter;
+// import java.io.FileWriter;
 
-import org.w3c.dom.Text;
+// public class Task4 {
+//     public static void main(String[] args) {
+//         String test = "TEST";
+//         int n = 100;
 
-public class Task4 {
-    public static void main(String[] args) {
-        String test = "TEST";
-        int n = 100;
-
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\\u0423\u0427\u0415\u0411\u0410 GB\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0441\u0442\\Java\\Java_programmist\\Seminar2\\output.txt"))) { 
-            //есть другой метод, как создавать файлики в нужную папку, а не в общую проектную, но нам его решили не показывать 
-            writer.write(test);
-        } catch (Exception e) {
-            System.out.println("Error" + e.getMessage());
-        }
+//         try (BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\\u0423\u0427\u0415\u0411\u0410 GB\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0441\u0442\\Java\\Java_programmist\\Seminar2\\output.txt"))) { 
+//             //есть другой метод, как создавать файлики в нужную папку, а не в общую проектную, но нам его решили не показывать 
+//             writer.write(test);
+//         } catch (Exception e) {
+//             System.out.println("Error" + e.getMessage());
+//         }
         
 
-    }
-
-
-    
-}
+//     }    
+// }
 
 
 
