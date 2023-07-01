@@ -15,7 +15,6 @@ public class Seminar2 {
         //System.out.println(polindrome1("ifkfi"));
 
         String pathProject = System.getProperty("user.dir");
-        String pathFile1 = pathProject.concat("\\seminar2-1.txt");
         String pathFile2 = pathProject.concat("\\seminar2-2.txt");
         // addingToFile(pathFile, longStringCreator("Hello!", 5));
 
