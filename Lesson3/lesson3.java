@@ -1,10 +1,10 @@
 // Тип OBJECT
 
-package Lesson3;
+// package Lesson3;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.*;
+// import java.util.ArrayList;
+// import java.util.Arrays;
+// import java.util.*;
 
 // public class lesson3 {
 
