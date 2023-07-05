@@ -70,12 +70,6 @@ public class Lesson4 {
     System.out.println(stack.pop()); // 123
     System.out.println(stack.pop()); // 12
     System.out.println(stack.pop()); // 1
-
-
-
-
-
-
     }
 
 
