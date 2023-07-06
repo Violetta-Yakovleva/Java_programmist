@@ -60,6 +60,7 @@ public class Lesson5 {
     // // {1=один, 3=три, 4=четыре, 6=шесть}
     // tMap.put(2,"два"); System.out.println(tMap);
     // // {1=один, 2=два, 3=три, 4=четыре, 6=шесть}
+    // }
 
     //LinkedHashMap
     // public static void main(String[] args) {
@@ -73,6 +74,7 @@ public class Lesson5 {
     // map.put(2, "два");
     // map.put(1, "один");
     // System.out.println(map); // {1=один, 2=два, 11=один один}
+    // }
 
 
     //Hashtable
@@ -83,15 +85,15 @@ public class Lesson5 {
     // table.put(2, "один");
     // System.out.println(table); // {2=один, 1=два, 11=один один}
     // // table.put(null, "один"); // java.lang.NullPointerException
-
-
-}
-
-
-
-
-
-
-
+    // }
 
 }
+
+
+
+
+
+
+
+
+
